@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const router = Router();
-const stripe = require('stripe')('sk_test_Ip5pfMDv4okXwif5oEbnmgk500bqcyBIGB');
+const stripe = require('stripe')('sk_test_your_private');
 
 router.get('/', (req, res) =>{
     res.render('index');

@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/react-spain/nodejs-stripe-checkout/issues"
   },
-  "homepage": "https://github.com/react-spain/nodejs-stripe-checkout#readme"
+  "homepage": "https://github.com/react-spain/nodejs-stripe-checkout#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "nodemon": "^2.0.7",
+    "stripe": "^8.137.0"
+  }
 }
